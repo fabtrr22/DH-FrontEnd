@@ -1,0 +1,36 @@
+.encabezado{
+    background-color: #E6E6E6;
+    text-align: center;
+    margin: 0;
+}
+
+.titulo{
+    color: #005679;
+    background-color: #C4C4C4;
+    letter-spacing: 6px;
+
+}
+.espacio {
+    margin-top: 10px;
+    min-height: 70px;
+}
+h1{
+    text-align: center
+}
+h3 {
+    background-color: #C4C4C4;
+    color: #005679;
+    letter-spacing: 4px;
+    padding-left: 1%;
+}
+.contenido {
+    padding-left: 2%;
+}
+.pie{
+    text-align: center;
+    color: azure;
+    background-color: #005679;
+    padding: 1px;
+    margin-top: 100px;
+    gap: 5px;
+}
