@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200&family=Nunito:wght@300&family=Roboto:wght@300&display=swap');
+
+*{
+  padding: 0px;
+  margin: 0px;
+  font-family: Roboto;
+  list-style: none;
+  text-decoration: none;
+}
+
+.header{
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3px 60px 3px 100px;
+  font-stretch: ultra-condensed;
+}
+
+.header select{
+  display: inline;
+  background-color: black;
+  color:white;
+  border-color: black;
+  font-stretch: ultra-condensed;
+}
+
+.navbar{
+  background-color: #F0A83E;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 60px 15px 40px;
+}
+
+.navbar nav ul {
+  display: flex;
+  gap:20px;
+  color: white;  
+}
+
+.navbar nav ul li a {
+  display: flex;
+  color: white;    
+}
+
+.navbar nav ul li img {
+  display: inline;
+  width: 15px;
+  height: 15px;
+  filter: rgb(255, 255, 255); 
+}
+
+.navbar img{
+  width: 150px;
+}
+
+.hero {
+  width: 100%;
+  height: 400px;
+  background-position: center center;
+  background-image: url('/img/portada.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  display: flex;
+  justify-content: end;
+}
+
+.hero section {
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  padding: 15px;
+  gap: 10px;
+  align-items: center;
+}
+
+.hero section h3 {
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 200%;
+  font-weight: lighter;
+}
+
+.hero section p {
+  align-items: center; 
+}
+
+.hero section button {
+  width: 150px;
+  height: 50px;
+  font-size: 1rem;
+  background-color: #F0A83E;
+  border: none;
+  padding: 15px;
+  border-radius: 5px;
+  color: white;
+}
+
+.hero section button a {
+  color: white;
+}
+
+.product {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.product img {
+  padding: 40px 0px 10px 0px;
+}
+
+h1 {
+  padding: 10px 0px 30px 0px;
+  color: #3C2313;
+  font-size: 50px;
+}
+.product ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px; 
+}
+
+.product ul a {  
+  color: #3C2313;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 50px;
+}
+
+.card {
+  text-align: center;
+  background-color: #fbfaed8d;
+  width: 240px;
+}
+
+.card-titulo {
+  color: #3C2313;
+  font-size: small;
+  font-weight: bold;
+}
+
+.card-precio {
+  color:#F0A83E; 
+  font-size: small;
+  font-weight: bold;
+}
+
+.links {
+  font-size: 20px;
+  font-family: Roboto;
+  font-weight: 400;
+  color: #666666;
+}
+
+h2{
+  font-family: 'Roboto';
+  font-style: bold;
+  font-weight: 700;
+  text-align: center;
+  font-size: 40px;
+  line-height: 29px;
+}
+
+h3{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  text-align: left;
+  font-size: 25px;
+  line-height: 29px;
+}
+.formulario {
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.formulario form {
+  background-color: #ffffff; 
+  padding: 20px;
+  border-radius: 10px; 
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario input[type="tel"] {
+  background-color: #3C2313; 
+  color: #fff; 
+  border: none;
+  border-radius: 15px; 
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 340px;
+  
+}
+
+.formulario input[type="submit"] {
+  background-color: #F0A83E; 
+  color: #fff; 
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.formulario input[type="reset"] {
+  background-color: #8A8787; 
+  color: #fff; 
+  border: none;
+  border-radius: 20px; 
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.footer {
+  background-color: #3C2313;
+  color: white;
+  display: flex;
+  flex-flow: column;
+  padding: 15px;
+  align-items:flex-start
+}
+
+.iconos {
+  display:inline-flex;
+  justify-content:space-between;
+  gap: 20px;
+  padding: 20px;
+}
+
+.iconos img {
+  width: 20vh;
+}
+
+footer h3 {
+  width: 250px;
+  align-items: center;
+  padding: 10px 0px;
+  font-weight: bold;
+}
+
+footer p {
+  color: #8A8787;
+  font-weight: bold;
+}
+
+.rights p {
+  display: flex;
+  color: white;
+  background-color: black;
+  justify-content:space-around;
+  font-stretch: ultra-condensed;   
+}
+
+.logo img{
+  display: flex;
+  justify-content:space-between;
+  padding-left: 450%;
+  width: 250px;
+  line-height: 23.44px;
+}
