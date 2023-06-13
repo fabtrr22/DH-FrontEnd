@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <header class="encabezado">
+    <section class="descuento_texto">
+      <p class="descuento">20% de descuento en todos los productos!</p>
+    </section>
+    <div class="titulo">
+      <a href="#"> <img src="./img/logo.svg" alt="logo" />
+      </a>
+      <h3>Nombre Tienda</h3>
+    </div>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Contacto</a></li>
+        <li><a href="#">Registrarme</a></li>
+        <li><a href="#">Ingresar</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="form-container">
+    <h1>Añadí tu super!</h1>
+    <h2>Agregá tu personaje favorito completando las opciones.</h2>
+    <form class="form-grid">
+      <div>
+        <label for="nombre">*Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+    
+        <label for="especie">*Especie:</label>
+        <select id="especie" name="especie" required>
+          <option value="humano">Unknown</option>
+        </select>
+      </div>
+    
+      <div>
+        <label for="fecha">Fecha:</label>
+        <input type="date" id="fecha" name="fecha">
+      </div>
+    
+      <div>
+        <label for="descripcion">Descripción:</label>
+        <textarea id="descripcion" name="descripcion" placeholder="Descripcion"></textarea>
+      </div>
+
+      <fieldset>
+        <legend>Poderes:</legend>
+        <input type="checkbox" id="volar" name="poder" value="volar">
+        <label for="volar">Volar</label><br>
+
+        <input type="checkbox" id="superinteligencia" name="poder" value="superinteligencia">
+        <label for="superinteligencia">SuperInteligencia</label><br>
+
+        <input type="checkbox" id="vistalarayolaser" name="poder" value="vistalarayolaser">
+        <label for="vistalarayolaser">Vista de rayo láser</label><br>
+
+        <input type="checkbox" id="billeteragorda" name="poder" value="billeteragorda">
+        <label for="billeteragorda">Billetera gorda</label><br>
+      </fieldset>
+
+      <fieldset>
+        <legend>Tipo de personaje:</legend>
+        <input type="checkbox" id="heroe" name="tipo" value="heroe">
+        <label for="heroe">Héroe / Heroína</label><br>
+
+        <input type="checkbox" id="villano" name="tipo" value="villano">
+        <label for="villano">Villano / Villana</label><br>
+      </fieldset>
+
+      <button type="submit">Añadir</button>
+    </form>
+  </div>
+</body>
+</html>
