@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <title>Registro de nuevo usuario</title>
+</head>
+<body>
+  <header>
+    <h4>20% de descuento en todos los productos!</h4>
+    <div class="banner">
+        <img src="./img/logo.svg" class="logo">
+        <h1>Nombre Tienda</h1>
+    </div>
+    <div class="menu">
+        <ul>
+          <a href="#"><li>Contacto</li></a>
+          <a href="#"><li>Registrarme</li></a>
+          <a href="#"><li>Ingresar</li></a>
+        </ul>
+    </div>
+</header>
+
+<main>
+  <section class="section-form">
+      <div class="formulario">
+          <h2>Añadí  tu super!</h2>
+          <p>Agregá tu personaje favorito completando las opciones.</p>
+          <form>
+              <div class="row">
+                  <div class="container-input">
+                      <label for="name">*Nombre</label>
+                      <input type="text" id="name" name="name">
+                  </div>
+                  <div class="container-input">
+                      <label for="especie">*Especie</label>
+                      
+                      <select id="especie" name="especie">
+                          <option disabled="false" selected>Especie</option>
+                          <option value="Unknown">Unknown</option>
+                      </select>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="container-input">
+                      <label for="fecha">Fecha</label>
+                      <input type="date" id="fecha" name="fecha">
+                  </div>
+                  <div class="agregar_foto">
+                      <label for="archivo">Agregar Foto</label>
+                      <input type="file" id="archivo" name="archivo">
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="container-input">
+                      <textarea placeholder="Descripcion"></textarea>
+                  </div>
+                  <div class="container-input-check">
+                      <label class="titulo-check">Poderes</label>
+                      <label><input class="check" type="checkbox" value="Volar">Volar</label>
+                      <label><input class="check" type="checkbox" value="SuperInteligencia">SuperInteligencia</label>
+                      <label><input class="check" type="checkbox" value="Vista de rayo laser">Vista de rayo laser</label>
+                      <label><input class="check" type="checkbox" value="Billetera gorda">Billetera gorda</label>
+                      <hr>
+                      <label class="titulo-check">Tipo de personaje</label>
+                      <label><input class="check" type="radio" name="personaje" value="Héroe / Heroina">Héroe / Heroina</label>
+                      <label><input class="check" type="radio" name="personaje" value="Villano / Villana">Villano / Villana</label>
+                  </div>
+              </div>
+              <div class="row-boton">
+                  <button type="submit" class="boton-formulario">Añadir</button>
+              </div>
+          </form>
+      </div>
+  </section>
+</main>
+<footer>
+  <span>Todos los derechos reservados FRONT END 1</span>
+</footer>
+</body>
+</html>
